@@ -1,11 +1,46 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
 }
+header{
+    padding: 20px;
+    position: fixed;
+    top: ;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
 nav{
     font-family: Arial, Helvetica, sans-serif;
     float: right;
 }
 li{
-    display: inline;
-    font-size: 50px;
+    display: inline-block;
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 0;
+    transition: 0.3s ease;
+}
+li:hover{
+    color: rgb(122, 119, 119);
+}
+#ModellenFoto{
+    padding-top: 110px;
+}
+.FotoIndex{
+    width: 50vh;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 10px;
+    margin: auto;
+}
+.FotoIndex:hover {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+    transform: translateY(-6px);
+}
+table{
+    margin: auto;
+}
+td{
+    padding: 10px;
+    display: inline-block;
 }
