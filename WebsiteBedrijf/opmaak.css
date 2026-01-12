@@ -3,12 +3,6 @@ html{
 }
 header{
     padding: 20px;
-    position: fixed;
-    top: ;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background-color: white;
 }
 nav{
     font-family: Arial, Helvetica, sans-serif;
@@ -16,6 +10,7 @@ nav{
 }
 li{
     display: inline-block;
+    color: black;
     font-size: 25px;
     padding: 20px;
     padding-top: 0;
@@ -24,8 +19,8 @@ li{
 li:hover{
     color: rgb(122, 119, 119);
 }
-#ModellenFoto{
-    padding-top: 110px;
+article{
+    padding: 0 45vh 0 45vh;
 }
 .FotoIndex{
     width: 50vh;
@@ -43,4 +38,63 @@ table{
 td{
     padding: 10px;
     display: inline-block;
+}
+.Modellen{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+.ModelTitel{
+    text-align: center;
+    font-size: 10vh;
+    color:  rgb(172, 169, 169);
+}
+.ModelInfoTitel{
+    font-size: 1000px;
+}
+.ModelInfoOndertitel{
+    font-size: 100px;
+}
+#ModelInfoTitel{
+    font-size: 64px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#ModelInfoTitel small {
+    font-size: 24px;
+    font-weight: 400;
+}
+#ModelInfoOndertitel {
+    color: #666;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 0.1;
+}
+#ModelInfo{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    padding: 70px;
+    padding-top: 200px;
+    text-align: center;
+}
+#ModelInfoFoto{
+    width: 45%;
+    float: right;
+    padding-top: 250px;
+}
+.TextBlok{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 150px;
+}
+.TextFoto{
+    width: 45%;
+    float: left;
+    border-radius: 10px;
+}
+.TextLinks{
+    width: 45%;
+    float: right;
+    font-size: 2vh;
 }
