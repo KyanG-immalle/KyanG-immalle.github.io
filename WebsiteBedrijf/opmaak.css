@@ -85,17 +85,28 @@ td{
     padding-top: 250px;
 }
 .TextBlok{
+    padding-top: 150px;
     width: 100%;
     overflow: hidden;
     margin-top: 150px;
 }
-.TextFoto{
+.TextFotoLinks{
     width: 45%;
     float: left;
     border-radius: 10px;
 }
-.TextLinks{
+.TextRechts{
     width: 45%;
     float: right;
+    font-size: 2vh;
+}
+.TextFotoRechts{
+    width: 45%;
+    float: right;
+    border-radius: 10px;
+}
+.TextLinks{
+    width: 45%;
+    float: left;
     font-size: 2vh;
 }
